@@ -2190,9 +2190,9 @@ input, select, textarea {
 		.image.avatar {
 			border-radius: 100%;
 			overflow: hidden; /* Options: visible, hidden, scroll, auto, clip */
-			width: 8em;  /* Adjust this value as needed */
-			height: 8em; /* Adjust this value as needed */
-			margin-bottom: 1em;
+			width: 10em;  /* Adjust this value as needed */
+			height: 10em; /* Adjust this value as needed */
+			margin-bottom: 1.5em;
 			img {
 				border-radius: 100%;
 				display: block;
@@ -2200,7 +2200,7 @@ input, select, textarea {
 				height: 100%;
 				object-fit: cover;
 				object-position: center 20%; 
-				transform: scale(1.05);
+				transform: scale(1.01);
 			}
 		}
 
@@ -2754,7 +2754,8 @@ input, select, textarea {
 			#header > header .avatar {
 				display: block;
 				margin: 0 auto 2.25em auto;
-				width: 8em;
+				width: 13em;
+				height: 13em;
 			}
 
 			#header > header h1 {
