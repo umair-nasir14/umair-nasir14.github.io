@@ -1,4 +1,2 @@
 Flask==2.3.2
-Werkzeug==2.3.6 
-numpy
-distutils
+Werkzeug==2.3.6
