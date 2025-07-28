@@ -1,0 +1,932 @@
+[
+    {
+        "iteration": 1,
+        "mechanic_archive": {
+            "num_elites": 33,
+            "coverage": 0.19526627659797668,
+            "qd_score": 0.05195102618721449,
+            "norm_qd_score": 0.0003074025153182447,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.0015742735704407096
+        },
+        "game_creation_stats": {
+            "total_nodes": 126,
+            "total_games": 54,
+            "success_rate": 42.857142857142854
+        },
+        "mcts_stats": {
+            "total_nodes": 126,
+            "games_created": 54,
+            "avg_depth": -2.6900000000000004,
+            "max_depth": 5.4,
+            "avg_visits": 18.6,
+            "max_visits": 120,
+            "root_value": -16.599999999999998,
+            "root_visits": 120
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 400.0,
+            "mechanic_generation_error_number": 4
+        }
+    },
+    {
+        "iteration": 2,
+        "mechanic_archive": {
+            "num_elites": 49,
+            "coverage": 0.28994083404541016,
+            "qd_score": 0.6131547443726393,
+            "norm_qd_score": 0.0036281344946473837,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.012513361871242523
+        },
+        "game_creation_stats": {
+            "total_nodes": 252,
+            "total_games": 54,
+            "success_rate": 21.428571428571427
+        },
+        "mcts_stats": {
+            "total_nodes": 126,
+            "games_created": 0,
+            "avg_depth": 0.0,
+            "max_depth": 0,
+            "avg_visits": 18.6,
+            "max_visits": 120,
+            "root_value": 0,
+            "root_visits": 120
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 400.0,
+            "mechanic_generation_error_number": 8
+        }
+    },
+    {
+        "iteration": 3,
+        "mechanic_archive": {
+            "num_elites": 58,
+            "coverage": 0.34319525957107544,
+            "qd_score": 2.2026454940044062,
+            "norm_qd_score": 0.01303340494632721,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.037976644933223724
+        },
+        "game_creation_stats": {
+            "total_nodes": 378,
+            "total_games": 81,
+            "success_rate": 21.428571428571427
+        },
+        "mcts_stats": {
+            "total_nodes": 126,
+            "games_created": 27,
+            "avg_depth": 1.28,
+            "max_depth": 11.799999999999997,
+            "avg_visits": 18.6,
+            "max_visits": 120,
+            "root_value": 9.799999999999999,
+            "root_visits": 120
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 400.0,
+            "mechanic_generation_error_number": 12
+        }
+    },
+    {
+        "iteration": 4,
+        "mechanic_archive": {
+            "num_elites": 67,
+            "coverage": 0.3964497148990631,
+            "qd_score": 2.398478834291615,
+            "norm_qd_score": 0.014192182570695877,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.03579819202423096
+        },
+        "game_creation_stats": {
+            "total_nodes": 441,
+            "total_games": 81,
+            "success_rate": 18.367346938775512
+        },
+        "mcts_stats": {
+            "total_nodes": 63,
+            "games_created": 0,
+            "avg_depth": 0.0,
+            "max_depth": 0,
+            "avg_visits": 9.3,
+            "max_visits": 60,
+            "root_value": 0,
+            "root_visits": 60
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 475.0,
+            "mechanic_generation_error_number": 19
+        }
+    },
+    {
+        "iteration": 5,
+        "mechanic_archive": {
+            "num_elites": 84,
+            "coverage": 0.4970414340496063,
+            "qd_score": 3.2869510600901157,
+            "norm_qd_score": 0.019449414685368538,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.03913037106394768
+        },
+        "game_creation_stats": {
+            "total_nodes": 630,
+            "total_games": 88,
+            "success_rate": 13.968253968253968
+        },
+        "mcts_stats": {
+            "total_nodes": 189,
+            "games_created": 7,
+            "avg_depth": 0.72,
+            "max_depth": 4.6,
+            "avg_visits": 27.900000000000006,
+            "max_visits": 180,
+            "root_value": 4.6,
+            "root_visits": 180
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 400.0,
+            "mechanic_generation_error_number": 20
+        }
+    },
+    {
+        "iteration": 6,
+        "mechanic_archive": {
+            "num_elites": 97,
+            "coverage": 0.5739644765853882,
+            "qd_score": 3.2869510600901157,
+            "norm_qd_score": 0.019449414685368538,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.03388609364628792
+        },
+        "game_creation_stats": {
+            "total_nodes": 777,
+            "total_games": 88,
+            "success_rate": 11.325611325611327
+        },
+        "mcts_stats": {
+            "total_nodes": 147,
+            "games_created": 0,
+            "avg_depth": 0.0,
+            "max_depth": 0,
+            "avg_visits": 21.700000000000003,
+            "max_visits": 140,
+            "root_value": 0,
+            "root_visits": 140
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 383.33333333333337,
+            "mechanic_generation_error_number": 23
+        }
+    },
+    {
+        "iteration": 7,
+        "mechanic_archive": {
+            "num_elites": 103,
+            "coverage": 0.6094674468040466,
+            "qd_score": 3.2786177267567824,
+            "norm_qd_score": 0.019400104880332947,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.03183123841881752
+        },
+        "game_creation_stats": {
+            "total_nodes": 945,
+            "total_games": 91,
+            "success_rate": 9.62962962962963
+        },
+        "mcts_stats": {
+            "total_nodes": 168,
+            "games_created": 3,
+            "avg_depth": -0.31999999999999995,
+            "max_depth": 0,
+            "avg_visits": 24.800000000000004,
+            "max_visits": 160,
+            "root_value": -2.1999999999999997,
+            "root_visits": 160
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 357.14285714285717,
+            "mechanic_generation_error_number": 25
+        }
+    },
+    {
+        "iteration": 8,
+        "mechanic_archive": {
+            "num_elites": 114,
+            "coverage": 0.6745561957359314,
+            "qd_score": 3.4619510640637587,
+            "norm_qd_score": 0.020484916865825653,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.03036799095571041
+        },
+        "game_creation_stats": {
+            "total_nodes": 1134,
+            "total_games": 91,
+            "success_rate": 8.024691358024691
+        },
+        "mcts_stats": {
+            "total_nodes": 189,
+            "games_created": 0,
+            "avg_depth": 0.0,
+            "max_depth": 0,
+            "avg_visits": 27.900000000000006,
+            "max_visits": 180,
+            "root_value": 0,
+            "root_visits": 180
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 325.0,
+            "mechanic_generation_error_number": 26
+        }
+    },
+    {
+        "iteration": 9,
+        "mechanic_archive": {
+            "num_elites": 120,
+            "coverage": 0.7100591659545898,
+            "qd_score": 3.4619510640637587,
+            "norm_qd_score": 0.020484916865825653,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.028849592432379723
+        },
+        "game_creation_stats": {
+            "total_nodes": 1302,
+            "total_games": 91,
+            "success_rate": 6.989247311827956
+        },
+        "mcts_stats": {
+            "total_nodes": 168,
+            "games_created": 0,
+            "avg_depth": 0.0,
+            "max_depth": 0,
+            "avg_visits": 24.800000000000004,
+            "max_visits": 160,
+            "root_value": 0,
+            "root_visits": 160
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 311.11111111111114,
+            "mechanic_generation_error_number": 28
+        }
+    },
+    {
+        "iteration": 10,
+        "mechanic_archive": {
+            "num_elites": 126,
+            "coverage": 0.7455621361732483,
+            "qd_score": 3.4758399529526476,
+            "norm_qd_score": 0.02056710049510002,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.027586031705141068
+        },
+        "game_creation_stats": {
+            "total_nodes": 1512,
+            "total_games": 102,
+            "success_rate": 6.746031746031746
+        },
+        "mcts_stats": {
+            "total_nodes": 210,
+            "games_created": 11,
+            "avg_depth": -0.75,
+            "max_depth": 1.9999999999999998,
+            "avg_visits": 31.000000000000007,
+            "max_visits": 200,
+            "root_value": -5.199999999999999,
+            "root_visits": 200
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 280.0,
+            "mechanic_generation_error_number": 28
+        }
+    },
+    {
+        "iteration": 11,
+        "mechanic_archive": {
+            "num_elites": 128,
+            "coverage": 0.7573964595794678,
+            "qd_score": 4.701316141938722,
+            "norm_qd_score": 0.02781843952834606,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.036729034036397934
+        },
+        "game_creation_stats": {
+            "total_nodes": 1659,
+            "total_games": 137,
+            "success_rate": 8.257986738999398
+        },
+        "mcts_stats": {
+            "total_nodes": 147,
+            "games_created": 35,
+            "avg_depth": -0.3600000000000001,
+            "max_depth": 8.200000000000001,
+            "avg_visits": 21.700000000000003,
+            "max_visits": 140,
+            "root_value": -0.9999999999999993,
+            "root_visits": 140
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 281.8181818181818,
+            "mechanic_generation_error_number": 31
+        }
+    },
+    {
+        "iteration": 12,
+        "mechanic_archive": {
+            "num_elites": 133,
+            "coverage": 0.7869822382926941,
+            "qd_score": 4.848538364105064,
+            "norm_qd_score": 0.02868957631289959,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.0364551767706871
+        },
+        "game_creation_stats": {
+            "total_nodes": 1827,
+            "total_games": 193,
+            "success_rate": 10.56376573617953
+        },
+        "mcts_stats": {
+            "total_nodes": 168,
+            "games_created": 56,
+            "avg_depth": -1.3400000000000003,
+            "max_depth": 2.5999999999999996,
+            "avg_visits": 24.800000000000004,
+            "max_visits": 160,
+            "root_value": -8.799999999999999,
+            "root_visits": 160
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 275.0,
+            "mechanic_generation_error_number": 33
+        }
+    },
+    {
+        "iteration": 13,
+        "mechanic_archive": {
+            "num_elites": 134,
+            "coverage": 0.7928994297981262,
+            "qd_score": 4.981871697438397,
+            "norm_qd_score": 0.0294785313308239,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.037178147584199905
+        },
+        "game_creation_stats": {
+            "total_nodes": 2037,
+            "total_games": 324,
+            "success_rate": 15.905743740795286
+        },
+        "mcts_stats": {
+            "total_nodes": 210,
+            "games_created": 131,
+            "avg_depth": -15.63,
+            "max_depth": 1.6,
+            "avg_visits": 31.08000000000001,
+            "max_visits": 200,
+            "root_value": -101.39999999999999,
+            "root_visits": 200
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 253.84615384615384,
+            "mechanic_generation_error_number": 33
+        }
+    },
+    {
+        "iteration": 14,
+        "mechanic_archive": {
+            "num_elites": 135,
+            "coverage": 0.7988165616989136,
+            "qd_score": 4.981871697438397,
+            "norm_qd_score": 0.0294785313308239,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.03690275177359581
+        },
+        "game_creation_stats": {
+            "total_nodes": 2142,
+            "total_games": 325,
+            "success_rate": 15.172735760971054
+        },
+        "mcts_stats": {
+            "total_nodes": 105,
+            "games_created": 1,
+            "avg_depth": -0.19,
+            "max_depth": 0,
+            "avg_visits": 15.5,
+            "max_visits": 100,
+            "root_value": -0.9999999999999999,
+            "root_visits": 100
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 271.42857142857144,
+            "mechanic_generation_error_number": 38
+        }
+    },
+    {
+        "iteration": 15,
+        "mechanic_archive": {
+            "num_elites": 135,
+            "coverage": 0.7988165616989136,
+            "qd_score": 7.061329359817146,
+            "norm_qd_score": 0.041783012449741364,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.05230614170432091
+        },
+        "game_creation_stats": {
+            "total_nodes": 2289,
+            "total_games": 360,
+            "success_rate": 15.727391874180865
+        },
+        "mcts_stats": {
+            "total_nodes": 147,
+            "games_created": 35,
+            "avg_depth": 2.76,
+            "max_depth": 19.2,
+            "avg_visits": 21.700000000000003,
+            "max_visits": 140,
+            "root_value": 17.799999999999997,
+            "root_visits": 140
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 273.3333333333333,
+            "mechanic_generation_error_number": 41
+        }
+    },
+    {
+        "iteration": 16,
+        "mechanic_archive": {
+            "num_elites": 137,
+            "coverage": 0.8106508851051331,
+            "qd_score": 7.982460308820501,
+            "norm_qd_score": 0.04723349213600159,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.058266133069992065
+        },
+        "game_creation_stats": {
+            "total_nodes": 2499,
+            "total_games": 407,
+            "success_rate": 16.286514605842335
+        },
+        "mcts_stats": {
+            "total_nodes": 210,
+            "games_created": 47,
+            "avg_depth": 2.2,
+            "max_depth": 16.4,
+            "avg_visits": 31.000000000000007,
+            "max_visits": 200,
+            "root_value": 13.199999999999998,
+            "root_visits": 200
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 256.25,
+            "mechanic_generation_error_number": 41
+        }
+    },
+    {
+        "iteration": 17,
+        "mechanic_archive": {
+            "num_elites": 140,
+            "coverage": 0.8284023404121399,
+            "qd_score": 8.038015861809747,
+            "norm_qd_score": 0.04756222292780876,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.05741439759731293
+        },
+        "game_creation_stats": {
+            "total_nodes": 2688,
+            "total_games": 450,
+            "success_rate": 16.741071428571427
+        },
+        "mcts_stats": {
+            "total_nodes": 189,
+            "games_created": 43,
+            "avg_depth": -2.52,
+            "max_depth": 3.0,
+            "avg_visits": 27.900000000000006,
+            "max_visits": 180,
+            "root_value": -14.8,
+            "root_visits": 180
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 247.05882352941177,
+            "mechanic_generation_error_number": 42
+        }
+    },
+    {
+        "iteration": 18,
+        "mechanic_archive": {
+            "num_elites": 141,
+            "coverage": 0.834319531917572,
+            "qd_score": 8.038015861809747,
+            "norm_qd_score": 0.04756222292780876,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.05700720474123955
+        },
+        "game_creation_stats": {
+            "total_nodes": 2793,
+            "total_games": 450,
+            "success_rate": 16.11170784103115
+        },
+        "mcts_stats": {
+            "total_nodes": 105,
+            "games_created": 0,
+            "avg_depth": 0.0,
+            "max_depth": 0,
+            "avg_visits": 15.5,
+            "max_visits": 100,
+            "root_value": 0,
+            "root_visits": 100
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 261.11111111111114,
+            "mechanic_generation_error_number": 47
+        }
+    },
+    {
+        "iteration": 19,
+        "mechanic_archive": {
+            "num_elites": 142,
+            "coverage": 0.8402366638183594,
+            "qd_score": 8.125515861809747,
+            "norm_qd_score": 0.048079974949359894,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.05722194164991379
+        },
+        "game_creation_stats": {
+            "total_nodes": 2982,
+            "total_games": 503,
+            "success_rate": 16.867873910127432
+        },
+        "mcts_stats": {
+            "total_nodes": 189,
+            "games_created": 53,
+            "avg_depth": -1.5000000000000002,
+            "max_depth": 7.199999999999999,
+            "avg_visits": 27.940000000000005,
+            "max_visits": 180,
+            "root_value": -8.599999999999998,
+            "root_visits": 180
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 252.6315789473684,
+            "mechanic_generation_error_number": 48
+        }
+    },
+    {
+        "iteration": 20,
+        "mechanic_archive": {
+            "num_elites": 144,
+            "coverage": 0.8520709872245789,
+            "qd_score": 8.125515861809747,
+            "norm_qd_score": 0.048079974949359894,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.05642719194293022
+        },
+        "game_creation_stats": {
+            "total_nodes": 3150,
+            "total_games": 503,
+            "success_rate": 15.968253968253968
+        },
+        "mcts_stats": {
+            "total_nodes": 168,
+            "games_created": 0,
+            "avg_depth": 0.0,
+            "max_depth": 0,
+            "avg_visits": 24.800000000000004,
+            "max_visits": 160,
+            "root_value": 0,
+            "root_visits": 160
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 250.0,
+            "mechanic_generation_error_number": 50
+        }
+    },
+    {
+        "iteration": 21,
+        "mechanic_archive": {
+            "num_elites": 146,
+            "coverage": 0.8639053106307983,
+            "qd_score": 8.300992052285936,
+            "norm_qd_score": 0.049118295311927795,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.05685611069202423
+        },
+        "game_creation_stats": {
+            "total_nodes": 3318,
+            "total_games": 506,
+            "success_rate": 15.250150693188669
+        },
+        "mcts_stats": {
+            "total_nodes": 168,
+            "games_created": 3,
+            "avg_depth": 0.18,
+            "max_depth": 0.9999999999999999,
+            "avg_visits": 24.800000000000004,
+            "max_visits": 160,
+            "root_value": 0.9999999999999999,
+            "root_visits": 160
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 247.61904761904762,
+            "mechanic_generation_error_number": 52
+        }
+    },
+    {
+        "iteration": 22,
+        "mechanic_archive": {
+            "num_elites": 147,
+            "coverage": 0.8698225021362305,
+            "qd_score": 8.300992052285936,
+            "norm_qd_score": 0.049118295311927795,
+            "max_fitness": 0.2916666567325592,
+            "mean_fitness": 0.05646933242678642
+        },
+        "game_creation_stats": {
+            "total_nodes": 3507,
+            "total_games": 516,
+            "success_rate": 14.713430282292558
+        },
+        "mcts_stats": {
+            "total_nodes": 189,
+            "games_created": 10,
+            "avg_depth": -1.1600000000000001,
+            "max_depth": 0.39999999999999997,
+            "avg_visits": 27.900000000000006,
+            "max_visits": 180,
+            "root_value": -8.6,
+            "root_visits": 180
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 240.9090909090909,
+            "mechanic_generation_error_number": 53
+        }
+    },
+    {
+        "iteration": 23,
+        "mechanic_archive": {
+            "num_elites": 147,
+            "coverage": 0.8698225021362305,
+            "qd_score": 11.475694422982528,
+            "norm_qd_score": 0.06790351867675781,
+            "max_fitness": 0.5916666388511658,
+            "mean_fitness": 0.07806594669818878
+        },
+        "game_creation_stats": {
+            "total_nodes": 3696,
+            "total_games": 568,
+            "success_rate": 15.367965367965366
+        },
+        "mcts_stats": {
+            "total_nodes": 189,
+            "games_created": 52,
+            "avg_depth": 6.12,
+            "max_depth": 38.199999999999996,
+            "avg_visits": 27.900000000000006,
+            "max_visits": 180,
+            "root_value": 38.199999999999996,
+            "root_visits": 180
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 234.7826086956522,
+            "mechanic_generation_error_number": 54
+        }
+    },
+    {
+        "iteration": 24,
+        "mechanic_archive": {
+            "num_elites": 147,
+            "coverage": 0.8698225021362305,
+            "qd_score": 13.083194418263822,
+            "norm_qd_score": 0.0774153545498848,
+            "max_fitness": 0.5916666388511658,
+            "mean_fitness": 0.08900132030248642
+        },
+        "game_creation_stats": {
+            "total_nodes": 3843,
+            "total_games": 608,
+            "success_rate": 15.820973198022378
+        },
+        "mcts_stats": {
+            "total_nodes": 147,
+            "games_created": 40,
+            "avg_depth": 3.77,
+            "max_depth": 25.4,
+            "avg_visits": 21.700000000000003,
+            "max_visits": 140,
+            "root_value": 25.4,
+            "root_visits": 140
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 237.5,
+            "mechanic_generation_error_number": 57
+        }
+    },
+    {
+        "iteration": 25,
+        "mechanic_archive": {
+            "num_elites": 149,
+            "coverage": 0.88165682554245,
+            "qd_score": 14.454027743016567,
+            "norm_qd_score": 0.08552679419517517,
+            "max_fitness": 0.5916666388511658,
+            "mean_fitness": 0.0970068946480751
+        },
+        "game_creation_stats": {
+            "total_nodes": 3969,
+            "total_games": 645,
+            "success_rate": 16.250944822373395
+        },
+        "mcts_stats": {
+            "total_nodes": 126,
+            "games_created": 37,
+            "avg_depth": 2.22,
+            "max_depth": 17.599999999999998,
+            "avg_visits": 18.6,
+            "max_visits": 120,
+            "root_value": 15.2,
+            "root_visits": 120
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 244.0,
+            "mechanic_generation_error_number": 61
+        }
+    },
+    {
+        "iteration": 26,
+        "mechanic_archive": {
+            "num_elites": 153,
+            "coverage": 0.9053254723548889,
+            "qd_score": 14.629027740036335,
+            "norm_qd_score": 0.08656229078769684,
+            "max_fitness": 0.5916666388511658,
+            "mean_fitness": 0.09561455994844437
+        },
+        "game_creation_stats": {
+            "total_nodes": 4179,
+            "total_games": 648,
+            "success_rate": 15.506101938262743
+        },
+        "mcts_stats": {
+            "total_nodes": 210,
+            "games_created": 3,
+            "avg_depth": 0.23,
+            "max_depth": 1.7999999999999998,
+            "avg_visits": 31.000000000000007,
+            "max_visits": 200,
+            "root_value": 1.5999999999999999,
+            "root_visits": 200
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 234.6153846153846,
+            "mechanic_generation_error_number": 61
+        }
+    },
+    {
+        "iteration": 27,
+        "mechanic_archive": {
+            "num_elites": 154,
+            "coverage": 0.9112426042556763,
+            "qd_score": 14.629027740036335,
+            "norm_qd_score": 0.08656229078769684,
+            "max_fitness": 0.5916666388511658,
+            "mean_fitness": 0.09499368816614151
+        },
+        "game_creation_stats": {
+            "total_nodes": 4347,
+            "total_games": 655,
+            "success_rate": 15.067862893949851
+        },
+        "mcts_stats": {
+            "total_nodes": 168,
+            "games_created": 7,
+            "avg_depth": -0.12000000000000002,
+            "max_depth": 0.7999999999999999,
+            "avg_visits": 24.800000000000004,
+            "max_visits": 160,
+            "root_value": -0.7999999999999998,
+            "root_visits": 160
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 233.33333333333334,
+            "mechanic_generation_error_number": 63
+        }
+    },
+    {
+        "iteration": 28,
+        "mechanic_archive": {
+            "num_elites": 154,
+            "coverage": 0.9112426042556763,
+            "qd_score": 14.629027740036335,
+            "norm_qd_score": 0.08656229078769684,
+            "max_fitness": 0.5916666388511658,
+            "mean_fitness": 0.09499368816614151
+        },
+        "game_creation_stats": {
+            "total_nodes": 4473,
+            "total_games": 655,
+            "success_rate": 14.643416051866756
+        },
+        "mcts_stats": {
+            "total_nodes": 126,
+            "games_created": 0,
+            "avg_depth": 0.0,
+            "max_depth": 0,
+            "avg_visits": 18.6,
+            "max_visits": 120,
+            "root_value": 0,
+            "root_visits": 120
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 239.28571428571428,
+            "mechanic_generation_error_number": 67
+        }
+    },
+    {
+        "iteration": 29,
+        "mechanic_archive": {
+            "num_elites": 154,
+            "coverage": 0.9112426042556763,
+            "qd_score": 14.629027740036335,
+            "norm_qd_score": 0.08656229078769684,
+            "max_fitness": 0.5916666388511658,
+            "mean_fitness": 0.09499368816614151
+        },
+        "game_creation_stats": {
+            "total_nodes": 4641,
+            "total_games": 655,
+            "success_rate": 14.113337642749407
+        },
+        "mcts_stats": {
+            "total_nodes": 168,
+            "games_created": 0,
+            "avg_depth": 0.0,
+            "max_depth": 0,
+            "avg_visits": 24.800000000000004,
+            "max_visits": 160,
+            "root_value": 0,
+            "root_visits": 160
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 237.93103448275863,
+            "mechanic_generation_error_number": 69
+        }
+    },
+    {
+        "iteration": 30,
+        "mechanic_archive": {
+            "num_elites": 154,
+            "coverage": 0.9112426042556763,
+            "qd_score": 14.629027740036335,
+            "norm_qd_score": 0.08656229078769684,
+            "max_fitness": 0.5916666388511658,
+            "mean_fitness": 0.09499368816614151
+        },
+        "game_creation_stats": {
+            "total_nodes": 4830,
+            "total_games": 655,
+            "success_rate": 13.561076604554865
+        },
+        "mcts_stats": {
+            "total_nodes": 189,
+            "games_created": 0,
+            "avg_depth": 0.0,
+            "max_depth": 0,
+            "avg_visits": 27.900000000000006,
+            "max_visits": 180,
+            "root_value": 0,
+            "root_visits": 180
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 233.33333333333334,
+            "mechanic_generation_error_number": 70
+        }
+    },
+    {
+        "iteration": 31,
+        "mechanic_archive": {
+            "num_elites": 154,
+            "coverage": 0.9112426042556763,
+            "qd_score": 14.629027740036335,
+            "norm_qd_score": 0.08656229078769684,
+            "max_fitness": 0.5916666388511658,
+            "mean_fitness": 0.09499368816614151
+        },
+        "game_creation_stats": {
+            "total_nodes": 4998,
+            "total_games": 655,
+            "success_rate": 13.105242096838735
+        },
+        "mcts_stats": {
+            "total_nodes": 168,
+            "games_created": 0,
+            "avg_depth": 0.0,
+            "max_depth": 0,
+            "avg_visits": 24.800000000000004,
+            "max_visits": 160,
+            "root_value": 0,
+            "root_visits": 160
+        },
+        "errors": {
+            "mechanic_generation_errors_percentage": 232.25806451612905,
+            "mechanic_generation_error_number": 72
+        }
+    }
+]

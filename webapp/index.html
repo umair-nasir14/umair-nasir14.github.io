@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Environment</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <a href="/" class="nav-button">🏠 Back to Search</a>
+            <button id="resetButton" class="nav-button">🔄 Reset Game</button>
+        </div>
+        <h1>Game Player</h1>
+        
+        <div class="game-container">
+            <!-- Game Section -->
+            <div class="game-section">
+                <h2>Game</h2>
+                <canvas id="gameCanvas"></canvas>
+                
+                <div class="controls">
+                    <div class="action-controls" id="actionControls">
+                        <!-- Dynamic action buttons will be inserted here -->
+                    </div>
+                </div>
+                
+                <div class="score">Score: <span id="scoreValue">0</span></div>
+            </div>
+
+            <!-- Right sidebar with controls and description -->
+            <div class="sidebar">
+                <!-- Controls Info Section -->
+                <div class="controls-info-section">
+                    <h2>Available Actions</h2>
+                    <div id="controlsInfo" class="controls-list">
+                        <p>Loading game mechanics...</p>
+                    </div>
+                </div>
+
+                <!-- Game Description Section -->
+                <div class="game-description-section">
+                    <h2>About This Game</h2>
+                    <div id="gameDescription" class="game-description">
+                        <p>Loading game description...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/game.js') }}"></script>
+    <script>
+        // Add reset button functionality
+        document.addEventListener('DOMContentLoaded', () => {
+            const resetButton = document.getElementById('resetButton');
+            if (resetButton && typeof game !== 'undefined') {
+                resetButton.addEventListener('click', () => {
+                    game.reset();
+                });
+            }
+        });
+    </script>
+</body>
+</html> 
