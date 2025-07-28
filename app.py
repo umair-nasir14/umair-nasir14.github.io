@@ -54,7 +54,7 @@ class GameManager:
     def load_game_scores(self):
         """Load game scores from JSON file"""
         try:
-            with open('cache/001/game_scores.json', 'r') as f:
+            with open('/game_app/cache/001/game_scores.json', 'r') as f:
                 self.game_scores = json.load(f)
         except FileNotFoundError:
             print("Game scores file not found")
@@ -63,7 +63,7 @@ class GameManager:
     def load_game_descriptions(self):
         """Load game descriptions from JSON file"""
         try:
-            with open('cache/001/game_descriptions.json', 'r') as f:
+            with open('/game_app/cache/001/game_descriptions.json', 'r') as f:
                 self.game_descriptions = json.load(f)
         except FileNotFoundError:
             print("Game descriptions file not found")
@@ -90,7 +90,7 @@ class GameManager:
     def load_game(self, game_name):
         """Dynamically load a game module and create environment"""
         try:
-            game_file = f"cache/001/{game_name}.py"
+            game_file = f"/game_app/cache/001/{game_name}.py"
             
             if not os.path.exists(game_file):
                 raise FileNotFoundError(f"Game file {game_file} not found")
@@ -284,7 +284,7 @@ class GameManager:
         except Exception as e:
             return {"success": False, "error": f"Error writing file: {e}"}
     
-    def clean_game_directory(self, directory_path="cache/001", create_backup=True, path_replacement=None):
+    def clean_game_directory(self, directory_path="/game_app/cache/001", create_backup=True, path_replacement=None):
         """
         Clean all Python game files in the specified directory.
         
@@ -355,7 +355,7 @@ class GameManager:
         Returns:
             dict: Cleaning result
         """
-        game_file = f"cache/001/{game_name}.py"
+        game_file = f"/game_app/cache/001/{game_name}.py"
         
         if not os.path.exists(game_file):
             return {"success": False, "error": f"Game file '{game_name}.py' not found"}
@@ -377,7 +377,7 @@ class GameManager:
         print(f"   Path replacement: '{old_path}' -> '{new_path}'")
         
         # Only clean cache/001 directory
-        cache_dir = "cache/001"
+        cache_dir = "/game_app/cache/001"
         
         if not os.path.isdir(cache_dir):
             print(f"   Cache directory '{cache_dir}' not found.")
@@ -420,10 +420,10 @@ game_manager = GameManager()
 # Auto-clean games on startup
 game_manager.auto_clean_on_startup()
 
-@app.route('/mortar')
+@app.route('/')
 def index():
     """Main page for game score search"""
-    return render_template('game_search.html')
+    return render_template('/game_app/webapp/game_search.html')
 
 @app.route('/search_games', methods=['POST'])
 def search_games():
@@ -462,7 +462,7 @@ def load_game(game_name):
 @app.route('/play')
 def play_game():
     """Game playing interface"""
-    return render_template('index.html')
+    return render_template('/game_app/webapp/index.html')
 
 @app.route('/get_game_state')
 def get_game_state():
@@ -561,7 +561,7 @@ def clean_single_game(game_name):
 def clean_status():
     """Hidden API endpoint to check which games have backups (indicating they were cleaned)"""
     try:
-        backup_files = glob.glob("cache/001/*.py.bak")
+        backup_files = glob.glob("/game_app/cache/001/*.py.bak")
         cleaned_games = [os.path.basename(f).replace('.py.bak', '') for f in backup_files]
         
         return jsonify({
