@@ -13,7 +13,7 @@ class GameRenderer {
     async initialize() {
         try {
             // Get initial game state
-            const response = await fetch('/get_game_state');
+            const response = await fetch('/games/get_game_state');
             const data = await response.json();
             console.log('Game state:', data);  // Debug log
             
@@ -44,7 +44,7 @@ class GameRenderer {
 
     async loadGameMechanics() {
         try {
-            const response = await fetch('/get_game_mechanics');
+            const response = await fetch('/games/get_game_mechanics');
             const data = await response.json();
             
             if (data.mechanics) {
@@ -352,7 +352,7 @@ class GameRenderer {
 
     async loadGameDescription() {
         try {
-            const response = await fetch('/get_game_description');
+            const response = await fetch('/games/get_game_description');
             const data = await response.json();
             
             if (data.narrative || data.win_condition) {
@@ -506,7 +506,7 @@ class GameRenderer {
 
     async takeAction(action) {
         try {
-            const response = await fetch(`/take_action/${action}`);
+            const response = await fetch(`/games/take_action/${action}`);
             const data = await response.json();
             if (data.observation) {
                 this.gameState.map = data.observation;
@@ -526,7 +526,7 @@ class GameRenderer {
 
     async reset() {
         try {
-            const response = await fetch('/reset_game');
+            const response = await fetch('/games/reset_game');
             const data = await response.json();
             if (data.initial_state) {
                 this.gameState.map = data.initial_state;

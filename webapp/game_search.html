@@ -286,7 +286,7 @@
 
             async loadAllGames() {
                 try {
-                    const response = await fetch('/get_all_games');
+                    const response = await fetch('/games/get_all_games');
                     const games = await response.json();
                     this.allGamesData = games;
                     this.populateAllGames();
@@ -331,7 +331,7 @@
                 this.hideError();
                 
                 try {
-                    const response = await fetch('/search_games', {
+                    const response = await fetch('/games/search_games', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
@@ -396,7 +396,7 @@
 
                 try {
                     // Navigate to the game
-                    window.location.href = `/load_game/${gameName}`;
+                    window.location.href = `/games/load_game/${gameName}`;
                 } catch (error) {
                     document.body.innerHTML = originalContent;
                     this.showError('Failed to load game: ' + error.message);

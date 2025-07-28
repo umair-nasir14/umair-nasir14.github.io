@@ -422,7 +422,7 @@ game_manager = GameManager()
 # Auto-clean games on startup
 game_manager.auto_clean_on_startup()
 
-@app.route('/')
+@app.route('/mortar')
 def index():
     """Main page for game score search"""
     return render_template('game_search.html')
